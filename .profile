@@ -1,3 +1,4 @@
+export PATH=$PATH:~/bin/
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 source virtualenvwrapper.sh
