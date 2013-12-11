@@ -1,4 +1,6 @@
 export PATH=$PATH:~/bin/
+export CODE_HOME=~/code
+
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 source virtualenvwrapper.sh
@@ -23,7 +25,7 @@ alias djs="python manage.py shell_plus"
 alias djrun="python manage.py runserver"
 alias djtest="python manage.py test --noinput"
 
-alias vcd="source ~/bin/virt_env_cd"
+alias vcd="source ~/bin/vcd.sh"
 
 alias la="ls -a"
 alias ll="ls -l"
