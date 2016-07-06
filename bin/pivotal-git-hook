@@ -1,29 +1,9 @@
 #!/bin/bash
 # commit-msg git hook
-# Checks for pivotal ticket id, and prompts user to create it if none is found
+# Whines if there's no pivotal ID 
 
 if [ -z $(grep -i "\[\(finishes\|fixes\|delivers\)*[ \t]*#[0-9]*\]" "$1") ]
 then
-    read -p "Pivotal ticket ID missing.  Enter ticket ID: " pivotal_id
-    
-    while [ -z $(echo $pivotal_id | grep "^[0-9]\+$") ]
-    do
-        read -p "enter a valid pivotal ID (numbers only): " pivotal_id
-    done
-
-    read -p "finish ticket? (y\n) [n] " finish
-    
-    while [[ "$finish" != "y" && "$finish" != "n" && "$finish" != "" ]]
-    do
-        read -p "Please enter \"y\" \"n\" or blank (for no): " finish
-    done
-
-    if [[ "$finish" == "y" ]]
-    then
-        finish="Finishes "
-    else
-        finish=""
-    fi
-
-    echo "[${finish}#$pivotal_id]" >> $1
+    echo 2> "Pivotal ticket ID missing."
+    exit 1
 fi
