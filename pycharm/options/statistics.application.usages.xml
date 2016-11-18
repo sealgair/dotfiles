@@ -1,0 +1,93 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="vellum" values="ECMAScript 5.1" collectionTime="1476747618781" />
+      <project id="cole" values="ECMAScript 5.1" collectionTime="1460493350020" />
+      <project id="dungeon" values="ECMAScript 5.1" collectionTime="1479494169717" />
+    </group>
+    <group name="module type">
+      <project id="vellum" values="PYTHON_MODULE" collectionTime="1476747618684" />
+      <project id="cole" values="PYTHON_MODULE" collectionTime="1460493349904" />
+      <project id="dungeon" values="PYTHON_MODULE" collectionTime="1479494169559" />
+    </group>
+    <group name="vcs">
+      <project id="vellum" values="Git" collectionTime="1476747618683" />
+      <project id="dungeon" values="Git" collectionTime="1479494169559" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="vellum" values="data.commit.count.100+,data.git.root.count.1" collectionTime="1476747618696" />
+      <project id="dungeon" values="data.git.root.count.15+,data.commit.count.10K+" collectionTime="1479494169589" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="vellum" values="Python.DjangoServer" collectionTime="1476747618684" />
+      <project id="cole" values="PythonConfigurationType" collectionTime="1460493349905" />
+      <project id="dungeon" values="Python.DjangoServer,DjangoTestsConfigurationType,PythonConfigurationType" collectionTime="1479494169560" />
+    </group>
+    <group name="run-configuration-type-temp">
+      <project id="dungeon" values="DjangoTestsConfigurationType" collectionTime="1479494169560" />
+    </group>
+    <group name="file-type">
+      <project id="vellum" values="C++,UNKNOWN,ActionScript,IDEA_MODULE,DATASOURCE_STORAGE,Locale,Images,HTML,Python,Native,XML,ReST,Perl,JSP,CSS,Cython,JSON Schema,PLAIN_TEXT,JavaScript,ARCHIVE,Ini" collectionTime="1476747618695" />
+      <project id="cole" values="Python" collectionTime="1460493349931" />
+      <project id="dungeon" values="HTML,UNKNOWN,Cython,ReST,Python,Puppet,JavaScript,CSS,C++,SQL,ARCHIVE,YAML,Images,JSON Schema,Locale,Native,Ini,PLAIN_TEXT,IDEA_MODULE,XML" collectionTime="1479494169574" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="dungeon" values="PostgreSQL/9.2.14,PostgreSQL/9.2.4,MySQL/5.5.43-0ubuntu0.12.04.1,PostgreSQL/9.2.4,PostgreSQL/9.5.2,PostgreSQL/9.2.4,PostgreSQL/9.2.15,MySQL/5.5.53-0ubuntu0.12.04.1-log" collectionTime="1479494169717" />
+    </group>
+    <group name="Puppet">
+      <project id="dungeon" values="Environments  single,Textual search  MAY,Non-default modulepath  false,Language version  Puppet 3.X,Git sync enabled  true" collectionTime="1479494169719" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="dungeon" values="com.mysql.jdbc.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver,com.mysql.jdbc.Driver,org.postgresql.Driver,org.postgresql.Driver,org.postgresql.Driver" collectionTime="1479494169718" />
+    </group>
+    <group name="py-interpreter">
+      <project id="vellum" values="Python 2.7.10 [virtualenv]" collectionTime="1476747618697" />
+      <project id="cole" values="Python 2.7.10 [virtualenv]" collectionTime="1460493349934" />
+      <project id="dungeon" values="Python 2.7.10 [virtualenv],Python 2.7.10 [virtualenv],Python 2.7.10 [virtualenv]" collectionTime="1479494169589" />
+    </group>
+    <group name="frameworks">
+      <project id="vellum" values="django" collectionTime="1476747618683" />
+      <project id="dungeon" values="django" collectionTime="1479494169559" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="vellum" values="Project,Project" collectionTime="1476747618781" />
+      <project id="cole" values="Project,Project" collectionTime="1460493350020" />
+      <project id="dungeon" values="Project,Project" collectionTime="1479494169717" />
+    </group>
+    <group name="Git">
+      <project id="vellum" values="config.warn.about.detached.enabled,data.local.branches.count.5+,config.ssh.enabled,data.remotes.in.project.1,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.force.push.enabled,data.remote.branches.count.8+,config.save.policy.STASH" collectionTime="1476747618697" />
+      <project id="cole" values="config.push.autoupdate.disabled,config.ssh.enabled,config.push.update.all.roots.enabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.cherry-pick.autocommit.disabled,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.force.push.enabled" collectionTime="1460493349936" />
+      <project id="dungeon" values="config.push.autoupdate.disabled,data.local.branches.count.1,data.remotes.in.project.1,data.local.branches.count.5+,data.remote.branches.count.30+,data.remotes.in.project.1,data.local.branches.count.1,data.remotes.in.project.1,config.ssh.enabled,data.remote.branches.count.2+,data.local.branches.count.1,data.remote.branches.count.2+,data.remote.branches.count.1,config.update.type.BRANCH_DEFAULT,data.remote.branches.count.8+,data.local.branches.count.1,data.remotes.in.project.1,config.warn.about.crlf.enabled,data.local.branches.count.1,data.local.branches.count.1,data.local.branches.count.2+,data.remotes.in.project.1,data.remotes.in.project.2+,data.remote.branches.count.2+,data.remotes.in.project.1,data.local.branches.count.1,data.remote.branches.count.2+,data.local.branches.count.8+,data.local.branches.count.1,data.local.branches.count.1,data.remotes.in.project.1,data.local.branches.count.1,config.repo.sync.NOT_DECIDED,data.local.branches.count.1,data.remotes.in.project.1,data.remote.branches.count.2+,data.remote.branches.count.5+,data.remote.branches.count.8+,config.force.push.enabled,data.remotes.in.project.1,data.remotes.in.project.2+,data.remotes.in.project.1,data.remotes.in.project.1,data.remote.branches.count.1,data.local.branches.count.1,data.local.branches.count.1,data.remotes.in.project.1,data.remote.branches.count.5+,data.local.branches.count.2+,config.push.update.all.roots.enabled,data.remote.branches.count.1,data.local.branches.count.1,data.remote.branches.count.2+,data.remote.branches.count.100+,data.local.branches.count.5+,data.remote.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.1,data.local.branches.count.1,data.local.branches.count.15+,data.remote.branches.count.1,data.remotes.in.project.1,data.remote.branches.count.5+,data.local.branches.count.1,data.remote.branches.count.30+,data.remotes.in.project.1,data.local.branches.count.1,data.remote.branches.count.100+,data.remotes.in.project.1,data.local.branches.count.1,data.remotes.in.project.1,config.warn.about.detached.enabled,data.remote.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.2+,data.remote.branches.count.1,config.cherry-pick.autocommit.disabled,data.remote.branches.count.8+,data.remote.branches.count.8+,data.remotes.in.project.1,data.remote.branches.count.8+,config.save.policy.STASH,data.local.branches.count.50+,data.remotes.in.project.1,data.remotes.in.project.1" collectionTime="1479494169674" />
+    </group>
+    <group name="images.ide.background">
+      <project id="vellum" values="editor 0,frame 0" collectionTime="1476747618696" />
+      <project id="dungeon" values="editor 0,frame 0" collectionTime="1479494169589" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="19" />
+      <entry feature="OpenInBrowser.Chrome" count="1" />
+      <entry feature="diff.TextDiffSettings.IgnorePolicy.IGNORE_WHITESPACES" count="1" />
+      <entry feature="execute.DjangoTestsConfigurationType.Debug" count="215" />
+      <entry feature="execute.DjangoTestsConfigurationType.Run" count="912" />
+      <entry feature="execute.Python.DjangoServer.Debug" count="144" />
+      <entry feature="execute.Python.DjangoServer.Run" count="172" />
+      <entry feature="execute.PythonConfigurationType.Coverage" count="1" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="9" />
+      <entry feature="execute.PythonConfigurationType.Run" count="15" />
+      <entry feature="execute.tests.Run" count="1" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Inspections" count="1" />
+      <entry feature="ide.settings.Keymap" count="14" />
+      <entry feature="ide.settings.Plugins" count="3" />
+      <entry feature="ide.settings.Project_Dependencies" count="1" />
+      <entry feature="ide.settings.Project_Interpreter" count="6" />
+      <entry feature="ide.settings.Python_Template_Languages" count="2" />
+      <entry feature="ideaapp.started" count="35" />
+      <entry feature="puppet.completion.used" count="35" />
+      <entry feature="puppet.structure.view.used" count="50" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenDirectoryProject" count="1" />
+    </counts>
+  </component>
+</application>

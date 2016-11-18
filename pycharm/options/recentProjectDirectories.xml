@@ -1,0 +1,78 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/code/dungeon" />
+        <option value="/code/vellum" />
+        <option value="$USER_HOME$/code/vellum" />
+        <option value="$USER_HOME$/code/interview/cole" />
+        <option value="/code/dungeon" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/code/dungeon" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/code/dungeon" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/code/dungeon">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-162.1967.10" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1479494174940" />
+              <option name="buildTimestamp" value="1473231600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/interview/cole">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-145.598" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1460484584116" />
+              <option name="buildTimestamp" value="1459839600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/vellum">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-145.1504" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1468620106405" />
+              <option name="buildTimestamp" value="1464159600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/code/dungeon">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-145.598" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1460482215815" />
+              <option name="buildTimestamp" value="1459839600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="/code/vellum">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PY-162.1967.10" />
+              <option name="productionCode" value="PY" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1476746168704" />
+              <option name="buildTimestamp" value="1473231600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

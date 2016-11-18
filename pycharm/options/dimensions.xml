@@ -1,0 +1,57 @@
+<application>
+  <component name="DimensionService">
+    <location key="FileChooserDialogImpl.0.0.2560.1440" x="1068" y="334" />
+    <location key="WELCOME_SCREEN.0.0.2560.1440" x="1280" y="230" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.2560.1440" x="998" y="559" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.2560.1440" x="986" y="409" />
+    <location key="com.intellij.database.extractors.ui.ChooseExtractorForm.0.0.2560.1440" x="868" y="393" />
+    <location key="SettingsEditor.0.0.2560.1440" x="820" y="311" />
+    <location key="#Inspections.0.0.2560.1440" x="920" y="410" />
+    <location key="findTextDialog.0.0.2560.1440" x="1050" y="223" />
+    <location key="replaceTextDialog.0.0.2560.1440" x="1042" y="445" />
+    <location key="#xdebugger.evaluate.0.0.2560.1440" x="948" y="458" />
+    <location key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2.0.0.2560.1440" x="280" y="448" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.0.0.2560.1440" x="1023" y="623" />
+    <location key="RollbackChangesDialog.0.0.2560.1440" x="1066" y="454" />
+    <location key="VCS.ChangeListViewerDialog.0.0.2560.1440" x="1067" y="449" />
+    <location key="CommitChangelistDialog2.0.0.2560.1440" x="926" y="442" />
+    <location key="MergeDialog.0.0.2560.1440" x="243" y="126" />
+    <location key="MultipleFileMergeDialog.0.0.2560.1440" x="979" y="475" />
+    <location key="FileChooserDialogImpl.0.0.1440.900" x="507" y="223" />
+    <location key="SettingsEditor.0.0.1440.900" x="218" y="124" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1440.900" x="184" y="123" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.2560.1440" x="1092" y="453" />
+    <location key="#com.intellij.ide.util.MemberChooser.0.0.1440.900" x="533" y="183" />
+    <location key="findTextDialog.0.0.1440.900" x="482" y="188" />
+    <location key="#xdebugger.evaluate.0.0.1440.900" x="435" y="201" />
+    <location key="ReplaceDuplicatesPrompt.0.0.2560.1440" x="728" y="656" />
+    <location key="com.intellij.openapi.editor.actions.MultiplePasteAction$1.0.0.2560.1440" x="1353" y="191" />
+    <location key="#xdebugger.code.fragment.editor.0.0.2560.1440" x="1118" y="589" />
+    <size key="com.intellij.database.extractors.ui.ChooseExtractorForm.0.0.2560.1440" width="1265" height="739" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="2518" height="380" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="2518" height="380" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="2518" height="380" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="2518" height="380" />
+    <size key="javadoc.popup.0.0.2560.1440" width="481" height="170" />
+    <size key="findTextDialog.0.0.2560.1440" width="1271" height="1011" />
+    <size key="replaceTextDialog.0.0.2560.1440" width="600" height="677" />
+    <size key="GridCell.Tab.1.left.0.0.2560.1440" width="2518" height="483" />
+    <size key="GridCell.Tab.1.center.0.0.2560.1440" width="2518" height="483" />
+    <size key="GridCell.Tab.1.right.0.0.2560.1440" width="2518" height="483" />
+    <size key="GridCell.Tab.1.bottom.0.0.2560.1440" width="2518" height="483" />
+    <size key="#xdebugger.evaluate.0.0.2560.1440" width="1529" height="671" />
+    <size key="GridCell.Tab.0.left.0.0.1440.900" width="1398" height="154" />
+    <size key="GridCell.Tab.0.center.0.0.1440.900" width="1398" height="154" />
+    <size key="GridCell.Tab.0.right.0.0.1440.900" width="1398" height="154" />
+    <size key="GridCell.Tab.0.bottom.0.0.1440.900" width="1398" height="154" />
+    <size key="findTextDialog.0.0.1440.900" width="830" height="657" />
+    <size key="GridCell.Tab.1.left.0.0.1440.900" width="1398" height="258" />
+    <size key="GridCell.Tab.1.center.0.0.1440.900" width="1398" height="258" />
+    <size key="GridCell.Tab.1.right.0.0.1440.900" width="1398" height="258" />
+    <size key="GridCell.Tab.1.bottom.0.0.1440.900" width="1398" height="258" />
+    <size key="Vcs.CompareWithSelectedRevision.Popup.0.0.2560.1440" width="300" height="300" />
+    <size key="XDebugger.FullValuePopup.0.0.2560.1440" width="1279" height="706" />
+    <size key="DebuggerActiveHint.0.0.2560.1440" width="1690" height="401" />
+    <size key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.2560.1440" width="1071" height="752" />
+  </component>
+</application>

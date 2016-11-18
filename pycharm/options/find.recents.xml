@@ -1,0 +1,53 @@
+<application>
+  <component name="FindRecents">
+    <findStrings>
+      <find>csrfSafeMethod</find>
+      <find>CsrfViewMiddleware</find>
+      <find>CSRF_COOKIE_USED</find>
+      <find>got em</find>
+      <find>all_products</find>
+      <find>bundle-item</find>
+      <find>cache</find>
+      <find>git</find>
+      <find>GIT_REVISION</find>
+      <find>price</find>
+      <find>wrapper</find>
+      <find>widgets-list</find>
+      <find>free_books_onlyfree_books_only</find>
+      <find>free_books_only</find>
+      <find>pagewrapper</find>
+      <find>gallery-title-only</find>
+      <find>template_name</find>
+      <find>template</find>
+      <find>make_book</find>
+      <find>is_bundle</find>
+      <find>frankie</find>
+      <find>{% cache</find>
+      <find>admin</find>
+      <find>megabundle</find>
+      <find>grou</find>
+      <find>Megabudne</find>
+      <find>autom</find>
+      <find>megabundlesview</find>
+      <find>browsables_cache_key</find>
+      <find>as</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>get_formsets_with_inlines(</replace>
+      <replace>{% wrapped_url \1 %}</replace>
+      <replace>{% wrapped_url $1 %}</replace>
+      <replace>book</replace>
+      <replace>log</replace>
+      <replace>.apil</replace>
+      <replace>'</replace>
+      <replace>&quot;</replace>
+      <replace>.display_price</replace>
+      <replace>|</replace>
+      <replace>cache_timeout|default:0</replace>
+      <replace>country</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$USER_HOME$/code/dungeon/dungeon/display/templates/widgets</dir>
+    </dirStrings>
+  </component>
+</application>
