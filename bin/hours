@@ -1,0 +1,78 @@
+#!/usr/bin/env python
+import math
+from collections import OrderedDict
+from dateutil.tz import tzlocal
+from datetime import datetime
+from dateutil import parser
+from itertools import chain
+
+payperiods = OrderedDict()
+
+total = 0
+sixty = 0
+
+
+def payperiod(ts):
+    year = ts.year
+    week = int(ts.strftime("%W"))
+    pp = int(week)
+
+    return "{}:{}".format(year, pp)
+
+
+start = None
+last_verb = None
+with open("/Users/Work/time.txt") as f:
+    lines = f.readlines()
+
+now = datetime.now(tzlocal())
+current = lines[-1].startswith('start')
+if current:
+    lines.append("stop {}".format(now))
+
+for line in lines:
+    verb, timestamp = line.split(" ", 1)
+    timestamp = parser.parse(timestamp)
+    if verb == last_verb:
+        continue
+    else:
+        last_verb = verb
+
+    if verb == "start":
+        start = timestamp
+    else:
+        duration = (timestamp - start).total_seconds() / 60 / 60
+        total += duration
+        if (now - timestamp).days <= 60:
+            sixty += duration
+
+        pp = payperiod(timestamp)
+        ppd = payperiods.setdefault(pp, {'hours': 0, 'days': OrderedDict()})
+        ppd['hours'] += duration
+        days = ppd['days']
+
+        day = timestamp.strftime("%Y-%m-%d")
+        days.setdefault(day, 0)
+        days[day] += duration
+
+
+def hourstring(hours):
+    return "{} hours, {} minutes".format(int(hours), int((hours % 1) * 60))
+
+
+print "Total: {} (${:0.2f})".format(hourstring(total), total * 65)
+print "Last 60 Days: {} (${:0.2f})".format(hourstring(sixty), sixty * 65)
+
+today = now.strftime("%Y-%m-%d")
+print "Pay Periods:"
+for pp, ppd in payperiods.items():
+    hours = ppd['hours']
+    days = ppd['days']
+    print "  {}: {} (${:0.2f})".format(pp, hourstring(hours), hours * 65)
+
+    print "  Days:"
+    for day, hours in days.items():
+        h = hourstring(hours)
+        if current and day == today:
+            h += "..."
+        print "    {}: {}".format(day, h)

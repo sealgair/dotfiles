@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+echo stop $(date) >> ~/time.txt && cat ~/time.txt | tail -2
