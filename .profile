@@ -10,7 +10,7 @@ alias rmpyc='find . -name "*.pyc" | xargs rm -v'
 
 #Django niceties
 export DJANGO_COLORS="dark"
-source /code/django/extras/django_bash_completion
+source ~/code/django/extras/django_bash_completion
 
 alias dj="python manage.py"
 alias djs="python manage.py shell_plus"
